@@ -1,0 +1,28 @@
+name: reko_mqtt_helper
+description: "reko_mqtt_helper is a Flutter package that simplifies MQTT integration, reducing boilerplate code and providing a convenient layer on top of mqtt_client."
+version: 1.0.0
+repository: https://github.com/zidhaanfa/reko_mqtt_helper
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  mqtt_client: ^10.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
